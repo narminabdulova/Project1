@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
+}
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 2.778vw;
+}
+.button {
+  margin-right: 1.944vw;
+}
+.button .button1 button {
+  padding: 0.694vw 1.111vw;
+  border-radius: 8px;
+  color: #20484f;
+  border: none;
+  background-color: #b8e4da;
+  cursor: pointer;
+}
+.button .button2 button {
+  background-color: transparent;
+  padding: 0.694vw 1.111vw;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.button1 {
+  margin-right: 0.833vw;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20484f;
+  width: 100vw;
+  height: 60px;
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+.menu li a {
+  color: #fff;
+  font-size: 0.972vw;
+  text-decoration: none;
+}
+
+/* Features Blocks */
+
+.left img {
+  width: 42.083vw;
+  height: 35.833vw;
+}
+.left {
+  margin-left: 2.986vw;
+  margin-right: 7.014vw;
+  margin-top: 45px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.check img {
+  width: 3.056vw;
+  height: 3.056vw;
+}
+.right {
+  width: 34.514vw;
+  margin-top: 85px;
+}
+.right .pclass {
+  margin-bottom: 44px;
+}
+.block1 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+.block2 {
+  display: flex;
+  flex-direction: row;
+}
+.check {
+  margin-right: 1.806vw;
+}
+.bth{
+    margin-left: 10.417vw;
+}
+.desk {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 48px;
+}
+.desk-container {
+  margin-top: 48px;
+}
+.bold {
+  margin-bottom: 16px;
+}
+.desk1,
+.desk2,
+.desk3,
+.desk4 {
+  background-color: #20484f;
+  color: #dcf2ed;
+  width: 18.403vw;
+  height: 329px;
+  border-radius: 24px;
+  padding: 30px 35px;
+}
+.desk1,
+.desk2,
+.desk3 {
+  margin-right: 1.458vw;
+}
+.number {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 133px;
+}
+.approval {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.on {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Social Proof Logos */
+
+.logos {
+  opacity: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sony {
+  width: 11.111vw;
+  height: 31.55px;
+  margin-top: 77px;
+}
+.Louiviton {
+  width: 14.792vw;
+  height: 22px;
+  margin-top: 82px;
+}
+.slack {
+  width: 11.875vw;
+  height: 74px;
+  margin-top: 56px;
+}
+.facebook {
+  width: 11.111vw;
+  height: 29.04px;
+  margin-top: 78px;
+}
+
+/* Page Header */
+
+.page-header {
+  margin: 106px 250px 120px 250px;
+}
+.page-header h6 {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #20484f;
+  margin-bottom: 16px;
+}
+.page-header p {
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: #20484f;
+}
+
+
+/* Team Section */
+
+
+.team-section{
+    background-color: #FAFAFA;
+    padding: 0 5.556vw;
+    width: 100vw;
+    height: 1280px;
+    padding-top: 85px;
+}
+.team-card{
+    margin-bottom: 16px;
+}
+.bth2{
+    text-align: center;
+    margin-bottom: 60px;
+}.bth2 h2{
+    margin-bottom: 16px;
+}
+.imgcard{
+    width: 13.889vw;
+    height: 13.889vw;
+    margin-top: 47px;
+    margin-bottom: 30px;
+}
+.card1{
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid rgba(32, 72, 79, 0.1);
+    width: 26.875vw;
+    height: 464px;
+    text-align: center;
+}
+.chief{
+    margin-top: 8px;
+    margin-bottom: 45px;
+}
+.mdi img{
+    border: 1px solid rgba(16, 38, 42, 0.1);
+    border-radius: 48px;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+}
+.trcard{
+    display: flex;
+    gap: 2.778vw;
+}
+.ctas{
+    text-align: center;
+    padding-top: 68px;
+    padding-bottom: 67px;
+}
+.ctas h5{
+    margin-bottom: 28px;
+}
+.ctas h1{
+    margin-bottom: 54px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.start .start1 button{
+    padding: 16px 36px 15px;
+    background: #20484F;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+}
+.Testimonials{
+    display: flex;
+}
+.Testimonials .Ti{
+    text-align: right;
+    width: 50%;
+}
+.quotes{
+    margin-left: 8.958vw;
+    padding-top: 93px;
+}
+.quotes h3{
+    margin-top: 53px;
+    margin-bottom: 70px;
+    font-weight: 700;
+    font-size: 32px;
+    width: 36.458vw;
+    height: 120px;
+}
+.quotes h5{
+    margin-bottom: 12px;
+}
+
+/* Images */
+
+
+.bth3{
+  text-align: center;
+}
+.bth3 h2{
+  margin-bottom: 20px;
+}
+.images{
+  margin-top: 48px;
+}
+.imagescard{
+  display: flex;
+}
+.image1 img{
+  width: 305.395px;
+  height: 268.718px;
+}
+.image2 img{
+  width: 285.005px;
+  height: 369px;
+}
+.image3 img{
+  width: 285.005px;
+  height: 295.301px;
+}
+.image4 img{
+  width: 285.005px;
+  height: 329.414px;
+}
+.image1{
+  margin-left: 29.002px;
+  margin-right: 10.526px;
+}
+.image2{
+  margin-top: 175.997px;
+  margin-right: 35.136px;
+}
+.image3{
+  margin-top: 27.994px;
+}
+.image4{
+  margin-top: 173.995px;
+  margin-right: 30.053px;
+}
+
+/* Hero Section */
+.bth4 h2{
+  font-weight: 700;
+  font-size: 40px;
+  color: #072125;
+  margin-bottom: 28px;
+}
+.bth4 p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #20484F;
+  margin-bottom: 28px;
+}
+.heroSection{
+  display: flex;
+  flex-direction: row;
+}
+.heroImage img{
+  width: 50vw;
+  height: 56.597vw;
+}
+.signup{
+  padding: 9.722vw 8.333vw;
+}
