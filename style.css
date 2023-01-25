@@ -380,8 +380,8 @@ ul {
 
   gap: 12px;
 }
-.formlabel input{
-margin-top: 12px;
+.formstitle .formlabel input{
+margin-top: 15px;
 margin-bottom: 24px;
 color: rgba(92, 135, 142, 0.053);
 font-weight: 400;
