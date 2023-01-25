@@ -671,3 +671,9 @@ footer hr{
   border: 1px solid #B8E4DA;
   opacity: 0.2;
 }
+footer .rightUp h5{
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+}
